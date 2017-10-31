@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+
+    <!-- jQuery library -->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+
+    <!-- Latest compiled JavaScript -->
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+</head>
+<body>
+
+<h2 class="jumbotron text-center" >My Todo App</h2>
+<input type="text" class="btn btn-info" style="width: 1400px;  font-size: large; " id="addtodoid">
+<button id="addbtn" class="btn btn-info"><span class="glyphicon glyphicon-plus"></span> Add Todo</button>
+<div class="row">
+    <div class="col-sm-4">
+        <h3 class="jumbotron text-center">Active Todo</h3>
+        <div class="well well-sm" style="background-color:lavender;" id="activeTodo"></div>
+    </div>
+    <div class="col-sm-4">
+    <h3 class="jumbotron text-center">Completed Todo</h3>
+    <div class="well well-sm" style="background-color:lavenderblush;"  id="completeTodo"></div>
+    </div>
+
+    <div class="col-sm-4"><h3 class="jumbotron text-center">Deleted Todo</h3>
+        <div class="well well-sm" style="background-color:lawngreen;" id="deletedTodo"></div></div>
+</div>
+
+
+<script type="text/javascript" src="todointerface.js"></script>
+<script type="text/javascript" src="userinterface.js"></script>
+</body>
+</html>
